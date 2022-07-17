@@ -1,8 +1,11 @@
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/utilities/Hook.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/utilities/BasePage.java
+/Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/Docker/DockerStart.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/pageObjects/SearchPage.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/utilities/Driver.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/runner/CucumberRunner.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/stepDefs/SelectedGymSteps.java
+/Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/Docker/Docker.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/pageObjects/SelectedGymPage.java
 /Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/stepDefs/SearchSteps.java
+/Users/temishodeinde/Documents/workspace/NuffieldhealthTest/src/test/java/com/Docker/DockerStop.java

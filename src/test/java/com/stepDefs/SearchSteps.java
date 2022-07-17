@@ -39,7 +39,7 @@ public class SearchSteps extends BasePage {
 
     @Then("user is displayed with a list of gyms containing {string}")
     public void userIsDisplayedWithAListOfGymsContaining(String gymCentre) throws InterruptedException {
-//        Thread.sleep(4000);
+        Thread.sleep(2000);
         assertThat(searchPage.getGynName(gymCentre), is(true));
     }
 

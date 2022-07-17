@@ -1,10 +1,13 @@
+com/Docker/Docker.class
+com/Docker/DockerStop.class
 com/stepDefs/SelectedGymSteps.class
 com/runner/CucumberRunner.class
 com/utilities/Driver.class
-com/pageObjects/SelectedGymPage.class
 com/utilities/Driver$Browser.class
-com/utilities/Hook.class
 com/pageObjects/SearchPage.class
 com/stepDefs/SearchSteps.class
+com/Docker/DockerStart.class
+com/pageObjects/SelectedGymPage.class
+com/utilities/Hook.class
 com/utilities/BasePage.class
 com/utilities/Driver$1.class
