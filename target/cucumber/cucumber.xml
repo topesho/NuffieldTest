@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="37.82">
+    <testcase classname="User navigates to NuffieldHeath Website and search for local Gyms" name="User searches for gym on NuffieldHealth Website" time="19.746">
+        <system-out><![CDATA[Given user navigates to "https://www.nuffieldhealth.com/gyms"...............passed
+And the website is displayed................................................passed
+And the user accepts cookies................................................passed
+When user searches for gyms close to their home town "Sutton UK"............passed
+Then user is displayed with a list of gyms containing "cheam"...............passed
+And user is displayed with a list of gyms containing "croydon"..............passed
+And user clicks "cheam".....................................................passed
+And the gym contact name is "Cheam Fitness & Wellbeing Gym".................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User navigates to NuffieldHeath Website and search for local Gyms" name="User searches for gym on NuffieldHealth Website 2" time="15.677">
+        <system-out><![CDATA[Given user navigates to "https://www.nuffieldhealth.com/gyms"...............passed
+And the website is displayed................................................passed
+And the user accepts cookies................................................passed
+When user searches for gyms close to their home town "Medway UK"............passed
+Then user is displayed with a list of gyms containing "medway"..............passed
+And user is displayed with a list of gyms containing "romford"..............passed
+And user clicks "medway"....................................................passed
+And the gym contact name is "Medway Fitness & Wellbeing Gym"................passed
+]]></system-out>
+    </testcase>
+</testsuite>
