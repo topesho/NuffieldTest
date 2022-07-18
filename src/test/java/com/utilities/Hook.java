@@ -1,7 +1,6 @@
 package com.utilities;
 
 
-import com.Docker.DockerStop;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -25,7 +24,7 @@ public class Hook extends BasePage {
     }
 
     @After("@test")
-    public void tearDown(Scenario scenario) throws IOException, InterruptedException {
+    public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             String dir = "target/errors",
                     fileName = LocalDateTime.now() +scenario.getName().replace(" ", "_") + ".png";
