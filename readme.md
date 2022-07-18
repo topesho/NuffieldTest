@@ -25,7 +25,7 @@ Run `mvn test -Dbrowser=RemoteDriver`
 And on completion run docker stop or run `docker-compose -f docker-compose.yaml down` in terminal to stop docker
 Reports are generated using Cucumber Reports Plugin 
 
-You can watch the test run on selenium grip on VNC on **http://localhost:7900** or check the selenium Grid console on **http://localhost:4444/ui**
+You can watch the test run on selenium grid check the selenium Grid console on **http://localhost:4444/ui**
 
 **On test failure screenshots are taken using Ashot from yandex and saved in target/errors folder/**
 
